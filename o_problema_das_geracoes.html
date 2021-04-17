@@ -1,0 +1,22 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function pulaLinha(){
+
+		document.write("<br><br>");
+	}
+
+	function mostra(texto){
+
+		document.write(texto);
+		pulaLinha();
+	}
+
+var totalDeAnos = 2020 - 1500;
+var totalDeGeracoes = totalDeAnos / 28;
+
+mostra("Passaram-se " + totalDeAnos + " anos desde o descobrimento do Brasil");
+mostra("O total de gerações desde 1500 é igual a: " + Math.round(totalDeGeracoes	));
+
+</script>
